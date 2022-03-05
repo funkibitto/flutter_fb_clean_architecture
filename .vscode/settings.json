@@ -1,0 +1,8 @@
+{
+  "editor.fontSize": 12,
+  "window.zoomLevel": 0,
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  "dart.lineLength": 80,
+  "editor.formatOnSave": true,
+}

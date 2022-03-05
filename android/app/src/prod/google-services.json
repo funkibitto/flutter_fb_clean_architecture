@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1815264503",
+    "project_id": "flutter-fb-clean",
+    "storage_bucket": "flutter-fb-clean.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1815264503:android:5521e59aba9fa1ca0667f2",
+        "android_client_info": {
+          "package_name": "com.funkibitto.flutter_fb_clean.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1815264503-smq11ln6962bgesv5c5lt9iu4lu30e66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPiugY6B2D2jvOHkIQZj5vLvQtgPt2kvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1815264503-smq11ln6962bgesv5c5lt9iu4lu30e66.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1815264503-561pnj040na0jehoekc7d4analdibbh2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.funkibitto"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
