@@ -5,7 +5,6 @@ class RootController {
   RxNotifier<int> selectedIndex = RxNotifier(0);
 
   void onChangePage(int index) {
-    //  /root/call/    Caso o Modular.to.path Terminar com / vc tem que utilizar ../chat caso nao voce pode utilizar ./chat
     print(Modular.to.path);
 
     switch (index) {
