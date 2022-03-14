@@ -4,6 +4,7 @@ import 'package:flutter_fb_clean_architecture/app/modules/auth/data/datasources/
 import 'package:flutter_fb_clean_architecture/app/modules/auth/data/repositories/auth_repositories_impl.dart';
 import 'package:flutter_fb_clean_architecture/app/modules/auth/domain/repositories/auth_repository.dart';
 import 'package:flutter_fb_clean_architecture/app/modules/auth/domain/usecases/get_auth_state_changed_usecase.dart';
+import 'package:flutter_fb_clean_architecture/app/modules/auth/domain/usecases/get_current_user_usecase.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 import 'modules/auth/data/datasources/remote/auth_datasource.dart';
@@ -22,9 +23,11 @@ class AppModule extends Module {
 
     // usecases
     Bind.lazySingleton((i) => GetAuthStateChangedUseCase(repository: i())),
+    Bind.lazySingleton((i) => GetCurrentUserUseCase(repository: i())),
 
     // controller
-    Bind.lazySingleton((i) => AppController(getAuthStateChangedUseCase: i(), getCurrentUserUseCase: i()))
+    Bind.lazySingleton((i) => AppController(
+        getAuthStateChangedUseCase: i(), getCurrentUserUseCase: i()))
   ];
 
   @override
